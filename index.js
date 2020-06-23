@@ -1,3 +1,5 @@
+//TODO: need to delete articles container or cast studies container when we go back to the main menu
+
 var caseStudyList = document.getElementById("case-study-list");
 var writingList = document.getElementById("writing-list");
 var about = document.getElementById("about");
