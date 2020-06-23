@@ -28,6 +28,7 @@ li {
 main {
   padding-top: 10vh;
   display: flex;
+  margin-bottom: 80px;
 }
 
 header nav {
