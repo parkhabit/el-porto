@@ -166,10 +166,22 @@ footer {
 }
 
 /* case study styles */
-.case-study-container {
+.case-studies-container {
     max-width: 800px;
     height: 80vh;
     overflow: auto;
+}
+
+.case-studies-container h5 {
+  font-size: 18px;
+}
+
+.case-studies-container li {
+  font-size: 16px;
+}
+
+.footnotes li {
+  font-size: 14px;
 }
 
 .title {
