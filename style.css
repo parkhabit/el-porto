@@ -1,3 +1,11 @@
+/*
+BREAKPOINTS
+768
+992
+1200
+*/
+
+
 body {
   padding: 7.5px;
   box-sizing: border-box;
@@ -32,11 +40,23 @@ main {
 }
 
 header nav {
-  width: 400px;
-  max-width: 400px;
+  width: 200px;
   color: #0000ee;
   font-size: 37px;
 }
+
+@media only screen and (min-width: 786px) {
+  header nav {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+    header nav {
+      width: 400px;
+    }
+}
+
 
 .nav_link {
   cursor: pointer;
