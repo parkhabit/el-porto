@@ -128,6 +128,10 @@ section ul li:hover::after {
   font-size: 12px;
 }
 
+.about-section img {
+  width: 40vw;
+}
+
 .about-section h2, .about-section h3 {
     text-shadow: 2px 2px 2px #cccccc;
     color: #949bac;
@@ -166,17 +170,17 @@ footer {
 }
 
 /* case study styles */
-.case-studies-container {
+#case-studies-container {
     max-width: 800px;
     height: 80vh;
     overflow: auto;
 }
 
-.case-studies-container h5 {
+#case-studies-container h5 {
   font-size: 18px;
 }
 
-.case-studies-container li {
+#case-studies-container li {
   font-size: 16px;
 }
 
